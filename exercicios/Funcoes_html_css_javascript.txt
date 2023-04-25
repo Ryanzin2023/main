@@ -1,0 +1,158 @@
+Funções de HTML,CSS e JavaScript
+
+------------------------------------------------------------------------
+
+Funções de HTML:Qual é a função do HTML? 
+A função do HTML é permitir que um navegador leia e 
+traduza marcações de textos e outras mídias para uma página na web, 
+permitindo que o usuário possa visualizar e interagir com essa página. 
+Isso inclui vídeos, formulários, áudio e muito mais.
+
+Estas linguagens são constituídas de códigos que delimitam 
+conteúdos específicos, segundo uma sintaxe própria. O HTML tem códigos 
+para criar paginas na web. Estes códigos que definem o tipo de letra, 
+qual o tamanho, cor, espaçamento, e vários outros aspectos do site.
+
+Vantagens:
+●Fácil de usar.
+●Sintaxe frouxa (embora, sendo muito flexível, não atenda aos padrões).
+●HTML é fácil de escrever.
+●HTML é fácil codificar.
+●O HTML também permite o uso de modelos, o que facilita o design de 
+uma página da web.
+●Muito útil para iniciantes no campo de web design.
+●Suportado em quase todos os navegadores, se não em todos os navegadores.
+●Amplamente utilizado; estabelecido em quase todos os sites, 
+se não em todos os sites.
+●Muito semelhante à sintaxe XML, que é cada vez mais usada para 
+armazenamento de dados.
+●Grátis – Você não precisa comprar nenhum software.
+●Fácil de aprender e codificar, mesmo para programadores iniciantes.
+
+Desvantagens:
+●Ele não pode produzir saída dinâmica sozinho, 
+pois é uma linguagem estática.
+●Às vezes, é difícil entender a estruturação de documentos HTML.
+●Erros podem ser caros.
+●O tempo necessário para escolher o esquema de cores de uma 
+página e criar listas, tabelas e formulários.
+●Ele pode criar apenas páginas estáticas e simples. 
+Se precisarmos de páginas dinâmicas, o HTML não será útil.
+●Precisa escrever muito código para criar uma página da web simples.
+●Você deve acompanhar as tags obsoletas e não usá-las. 
+●As tags obsoletas aparecem porque outro idioma que funciona com 
+●HTML substituiu o trabalho original da tag; portanto, a outra 
+linguagem precisa ser aprendida (na maioria das vezes, é CSS).
+Os recursos de segurança oferecidos pelo HTML são limitados.
+
+------------------------------------------------------------------------
+
+Funções de CSS:CSS é a sigla para Cascading Style Sheets, 
+ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar 
+estilo ao código criado por linguagens como HTML, XML ou XHTML, 
+por exemplo. De forma prática, ela funciona como uma camada de 
+personalização ao conteúdo visível.
+
+Estes tipos de linguagem citados foram idealizados para serem 
+funcionais e, por serem de marcação, precisaram ser aperfeiçoados. 
+Ele foi criado porque o HTML não era capaz de compreender todas as 
+necessidades que um programador tinha para criar padrões de formatação 
+nas páginas. O CSS, no caso, veio como uma boa solução para aprimorar a 
+estética dos sites.
+
+Por meio dele, é possível separar formatos de conteúdos, 
+bem como definir como serão exibidos em cada página.
+
+Vantagens:
+●Com CSS economiza-se tempo de criação e manutenção do site 
+(o código de formatação fica isolado em um único arquivo CSS).
+●Redução do código HTML.
+●Os Navegadores carregam mais rápido a página, podendo chegar até a 70%.
+●Maior eficiência no gerenciamento do Layout.
+●Com recursos mais avaçados de CSS pode-se conseguir um design 
+●sofisticado sem utilização de imagens e tabelas
+
+Desvantagens:
+●CSS, CSS 1 até CSS3, resultam em confusão entre os 
+navegadores da web.
+●Com CSS, o que funciona com um navegador nem sempre funciona com outro. 
+●Os desenvolvedores da web precisam testar a compatibilidade, 
+executando o programa em vários navegadores.
+●Existe uma escassez de segurança.
+●Depois de fazer as alterações, precisamos confirmar a 
+compatibilidade, caso apareçam. A mudança semelhante afeta todos os 
+navegadores.
+●O mundo da linguagem de programação é complicado para não 
+desenvolvedores e iniciantes. Diferentes níveis de CSS, ou seja, CSS, 
+●CSS 2, CSS 3, costumam ser bastante confusos.
+●Compatibilidade do navegador (algumas folhas de estilo são suportadas e 
+outras não).
+●CSS funciona de maneira diferente em navegadores diferentes. O IE e o 
+●Opera suportam CSS como lógicas diferentes.
+●Pode haver problemas entre navegadores ao usar CSS.
+●Existem vários níveis que criam confusão para não desenvolvedores e 
+iniciantes.
+
+------------------------------------------------------------------------
+
+Funções de JavaScript:JavaScript é uma linguagem de 
+programação que permite a você implementar itens complexos em 
+páginas web — toda vez que uma página da web faz mais do que 
+simplesmente mostrar a você informação estática — mostrando conteúdo 
+que se atualiza em um intervalo de tempo, mapas interativos ou 
+gráficos 2D/3D animados, etc.
+
+Vantagens:
+●Independentemente de onde você hospeda o JavaScript, ele sempre é 
+executado no ambiente do cliente para economizar muita largura de 
+banda e tornar o processo de execução mais rápido.
+●Em JavaScript, XMLHttpRequest é um objeto importante projetado pela 
+Microsoft. A chamada de objeto feita por XMLHttpRequest como uma 
+solicitação HTTP assíncrona ao servidor para transferir os dados 
+para ambos os lados sem recarregar a página
+●A maior vantagem do JavaScript é a capacidade de suportar todos os 
+navegadores modernos e produzir um resultado equivalente.
+●As empresas globais apóiam o desenvolvimento da comunidade criando 
+projetos importantes. Um exemplo é o Google (criou a estrutura Angular) 
+ou Facebook (criou a estrutura React.js).
+●JavaScript é empregado em todos os lugares da web.
+●JavaScript funciona bem com outras linguagens e pode ser utilizado em 
+uma grande variedade de aplicativos.
+●Existem muitos projetos de código aberto que fornecem uma ajuda útil 
+na adição de JavaScript do desenvolvedor.
+●Existem muitos cursos disponíveis na área de JavaScript, por isso você 
+expandirá de forma rápida e simples seu conhecimento desta linguagem de 
+programação.
+●Não é difícil começar a trabalhar em JavaScript. Por isso, 
+muitos de nós preferimos começar sua aventura no setor de TI 
+aprendendo essa língua.
+●Ele oferece o poder de criar interfaces ricas.
+●Existem algumas maneiras de usar JavaScript por meio de servidores 
+Node.js. É possível desenvolver um aplicativo JavaScript inteiro do 
+início ao fim usando apenas JavaScript.
+
+Desvantagens:
+●Pode ser difícil desenvolver aplicativos grandes, embora você 
+também use a sobreposição de TypeScript.
+●Isso se aplica a projetos front-end maiores. A configuração 
+costuma ser uma tarefa tediosa para a quantidade de ferramentas que 
+precisam ser montadas para criar um ambiente para tal projeto. 
+Geralmente, isso está diretamente associado à operação da biblioteca.
+●O principal problema ou desvantagem em JavaScript é que o código 
+está sempre visível para qualquer pessoa que possa visualizar o código 
+JavaScript.
+●Não importa a proporção que o JavaScript interpreta rapidamente, 
+o JavaScript DOM (Document Object Model) é lento e pode ser uma 
+renderização nunca rápida com HTML.
+●Se o erro ocorrer no JavaScript, ele pode parar para renderizar 
+todo o site. Os navegadores são extremamente tolerantes com erros de 
+JavaScript.
+●JavaScript geralmente é interpretado de maneira diferente por 
+navegadores diferentes. Isso torna um tanto complexo ler e escrever 
+código para vários navegadores
+●Embora alguns editores de HTML suportem depuração, não é tão 
+eficiente quanto outros editores, como editores C / C++. Portanto, 
+é difícil para o desenvolvedor detectar o problema.
+●Essa conversão contínua leva mais tempo na conversão de um número 
+em um inteiro. Isso aumenta o tempo necessário para executar o script 
+e reduz sua velocidade.
