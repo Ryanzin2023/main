@@ -90,3 +90,20 @@ section h2,.articles article{
 #economy .articles article a{
     background-color: rgba(180, 102, 7, 0.808);
 }
+
+#games{
+    background-color: #270683e5;
+}
+
+#games .articles article a{
+    background-color: rgba(7, 41, 189, 0.808);
+}
+
+#animes{
+    background-color: #b10f8ee5;
+}
+
+#animes .articles article a{
+    background-color: rgba(179, 51, 196, 0.808);
+    
+}
