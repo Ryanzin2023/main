@@ -4,12 +4,33 @@
     padding: 0;
 }
 
-header li{
-    display: inline;
+body > header{
+    padding: 16px 0 ;
+    background-color: #0053c7dc;
+    color: #924200;
 }
 
 h1{
-    color:#D1000A;
+    color:#b4020b;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li{
+display: inline;
+margin-left: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+
+header li a{
+    color: #000000;
+    text-decoration: none;
 }
 
 .container{
@@ -25,9 +46,47 @@ h1{
 
 .articles article img{
     height: 260px;
+    /* width: 100%; */
 }
 .articles article{
     height: 30%;
 }
 
+section{
+    padding: 16px 0;
+}
 
+section h2,.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgb(20, 114, 109);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+#sports{
+    background-color: rgba(4, 212, 4, 0.301);
+}
+
+#economy{
+    background-color: rgba(212, 198, 4, 0.568);
+}
+
+#economy .articles article a{
+    background-color: rgba(180, 102, 7, 0.808);
+}
