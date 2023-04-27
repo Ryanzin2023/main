@@ -6,12 +6,12 @@
 
 body > header{
     padding: 16px 0 ;
-    background-color: #0053c7dc;
+    background-color: #000916;
     color: #924200;
 }
 
 h1{
-    color:#b4020b;
+    color:#db7500;
 }
 
 header .container{
@@ -29,7 +29,7 @@ font-weight: 700;
 }
 
 header li a{
-    color: #000000;
+    color: #db7500;
     text-decoration: none;
 }
 
@@ -58,6 +58,8 @@ section{
 
 section h2,.articles article{
     margin-bottom: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
 }
 
 .articles article h3{
@@ -92,7 +94,7 @@ section h2,.articles article{
 }
 
 #games{
-    background-color: #270683e5;
+    background-color: #270683da;
 }
 
 #games .articles article a{
@@ -100,10 +102,10 @@ section h2,.articles article{
 }
 
 #animes{
-    background-color: #b10f8ee5;
+    background-color: #b10f8e;
 }
 
 #animes .articles article a{
-    background-color: rgba(179, 51, 196, 0.808);
+    background-color: rgba(179, 51, 196, 0.89);
     
 }
