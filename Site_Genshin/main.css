@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 16px 0 ;
+    background-color: #ffffff;
+
+}
+
+head{
+    background-color: rgb(53, 93, 128);
+}
+
+h1{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+h3{
+    background-color: #ffffff;
+}
+
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.container{
+    width:1366px;
+    margin: 0 auto 0 auto;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 260px;
+    /* width: 100%; */
+}
+.articles article{
+    height: 100%;
+}
+
+
+section h2,.articles article{
+    margin-bottom: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+#raiden_ei{
+    background-color: #270683da;
+}
+
+#xiao{
+    background-color: rgb(20, 114, 109);
+}
+
+#bennet{
+    background-color: #c72f09da;
+}
+
+#hutao{
+    background-color: #b11717;
+}
+
+#childe{
+    background-color: #0c66ce;
+}
+
+#sara{
+    background-color: #45259cda;
+}
+
+#yae{
+    background-color: #b62285da;
+}
+
+#ganyu{
+    background-color: #b0d6ec;
+}
+
+#zhongli{
+    background-color: #b86e01;
+}
+
