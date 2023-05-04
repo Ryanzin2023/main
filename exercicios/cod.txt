@@ -1,0 +1,11 @@
+let resultado = true, num = 10;
+
+if(num > 5){
+    resultado = true;
+}else{
+    resultado = false;
+}
+
+
+-------------------------------------
+resultado = num > 5 ? true : false

@@ -1,14 +1,19 @@
-for (let i = 0; i < 11; i++){
-    console.log("4 x " + i + " = " + 4*i);
+let numTab = 6, tamTab = 12, cont = 1;
+numTab = parseInt(prompt("Informe o n da tabuada:"));
+tamTab = prompt("Informe o tamanho da tabuada:");
+
+do{
+    console.log(`${cont} X ${tamTab} = ${cont * numTab}`);
+    cont ++;
+}while(cont <= tamTab);
+
+---------------------------------------------------------------
+
+function calcIdade(anoNascimento){
+    let ano = 2023, idade;
+    idade = ano -anoNascimento;
+    return idade;
 }
-VM654:2 4 x 0 = 0
-VM654:2 4 x 1 = 4
-VM654:2 4 x 2 = 8
-VM654:2 4 x 3 = 12
-VM654:2 4 x 4 = 16
-VM654:2 4 x 5 = 20
-VM654:2 4 x 6 = 24
-VM654:2 4 x 7 = 28
-VM654:2 4 x 8 = 32
-VM654:2 4 x 9 = 36
-VM654:2 4 x 10 = 40
+
+let ano = prompt("Informe o ano de nascimento")
+alert(`Você tem ${calcIdade(ano)} anos.`);
