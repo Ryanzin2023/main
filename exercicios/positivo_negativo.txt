@@ -1,0 +1,14 @@
+let num;
+
+num = prompt("Informe um valor númerico:")
+
+escolha = isNaN(num)
+
+if(Math.sign(num) == 1){
+    alert("O valor informado é positivo")
+}else if(Math.sign(num) == -1){
+    alert("O valor informado é negativo")
+}else{
+    alert("O valor informado é neutro")
+
+}
