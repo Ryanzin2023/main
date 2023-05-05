@@ -1,0 +1,18 @@
+let num1, num2;
+
+num1 = prompt("Informe o primeiro a valor:")
+
+num2 = prompt("Informe o segundo a valor:")
+
+if(esc){
+    
+if(num1 > num2){
+    console.log("O número 1 é maior: " + num1 +".")
+}else if(num2 > num1){
+    console.log("O número 2 é maior: " + num2 +".")
+}else{
+    console.log("Os números são iguais: N1:" + num1 +","+ "N2:" + num2 +".")
+}
+}else{
+    alert("Informe apenas números!")
+}
