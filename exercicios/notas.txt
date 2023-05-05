@@ -1,0 +1,14 @@
+let notaUm = parseFloat(prompt("Insira a primeira nota:"));
+let notaDois = parseFloat(prompt("Insira a segunda nota:"));
+let notaTres = parseFloat(prompt("Insira a terceira nota:"));
+let notaQuatro = parseFloat(prompt("Insira a quarta nota:"));
+let notaCinco = parseFloat(prompt("Insira a quinta nota:"));
+let soma = (notaUm + notaDois + notaTres + notaQuatro + notaCinco) / 2;
+
+if (soma === 10) {
+alert("Aprovado com Distinção" + "\n\nMédia do aluno: " + soma);
+} else if (soma >= 7) {
+alert("Aprovado" + "\n\nMédia do aluno: " + soma);
+} else {
+alert("Reprovado" + "\n\nMédia do aluno: " + soma);
+}
