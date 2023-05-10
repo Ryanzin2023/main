@@ -1,0 +1,25 @@
+const numero = parseInt(prompt("Digite um número entre 1 e 12"));
+
+if (numero >= 1 && numero <= 12) {
+  const meses = [
+    "Janeiro",
+    "Fevereiro",
+    "Março",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Dezembro"
+  ];
+
+
+  const mes = meses[numero - 1];
+  alert("O número " + numero + " corresponde ao mês de " + mes);
+} else {
+
+  alert("O número digitado não está entre 1 e 12");
+}

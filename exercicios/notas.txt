@@ -11,3 +11,4 @@ alert("Aprovado com Distinção" + "\n\nMédia do aluno: " + soma);
 alert("Aprovado" + "\n\nMédia do aluno: " + soma);
 } else {
 alert("Reprovado" + "\n\nMédia do aluno: " + soma);
+}

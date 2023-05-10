@@ -1,0 +1,11 @@
+function calcularFatorial(num) {
+  let fatorial = 1;
+  for (let i = 2; i <= num; i++) {
+    fatorial *= i;
+  }
+  return fatorial;
+}
+
+const numero = 5;
+const fatorial = calcularFatorial(numero);
+console.log(`O fatorial de ${numero} é ${fatorial}`);
