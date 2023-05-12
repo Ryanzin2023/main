@@ -24,7 +24,7 @@ input, textarea, button{
 }
 
 button{
-    background-color: #2ccc71;
+    background-color: #176b3c;
     border:none ;
     text-transform: uppercase;
     color: #fff;
@@ -34,5 +34,5 @@ button{
 }
 
 button:hover{
-    background-color: #45ac42;
+    background-color: #2f7c2c;
 }
