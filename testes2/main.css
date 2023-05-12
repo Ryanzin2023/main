@@ -1,0 +1,21 @@
+.container {
+    margin: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
