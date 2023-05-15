@@ -1,26 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Calculadora de Médias</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <link rel="stylesheet" href="./main.css"/>
 </head>
 <body>
-  <h1>Calculadora de Médias</h1>
-  <div class="container">
-    <label for="num1">Número 1:</label>
-    <input type="number" id="num1">
-
-    <label for="num2">Número 2:</label>
-    <input type="number" id="num2">
-
-    <label for="num3">Número 3:</label>
-    <input type="number" id="num3">
-
-    <button onclick="calcularMedia()">Calcular</button>
-
-    <p id="resultado"></p>
-  </div>
-
-  <script src="script.js"></script>
+    <div id="container">
+    <header>
+        <img src="/Midias/logo.png" alt="Formatura"/>
+        <h1>Resultado Aluno</h1>
+    </header>
+    <form id="form_atividade">
+        <input type="text" id="nome_atividade" placeholder="Nome da Atividade"/>
+        <input type="number" id="nota_atividade" placeholder="Nota da Atividade" min="0" max="10"/>
+        <button type="submit">Adicionar +</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>
+                    Nome da Atividade
+                </th>
+                <th>
+                    Nota
+                </th>
+                <th>
+                    Aprovado?
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Atividade 1</td>
+                <td>7</td>
+                <td><img src="/Midias/aprovado.png" alt="Aprovado"></td>
+            </tr>
+            <tr>
+                <td>Atividade 2</td>
+                <td>6</td>
+                <td><img src="/Midias/reprovado.png" alt="Reprovado"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Nota Média</td>
+                <td>19,6</td>
+                <td><span class="resultado aprovado">Aprovado</span></td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
