@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css"/>
+        
+        <title>Sistema de Contatos</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="/agenda/agenda.png" alt="agenda"/>
+                <H1>Lista de Contatos</H1>
+            </header>
+            <form id="form_contato">
+                <input type="text" id="nome_contato" placeholder="Nome do contato" required />
+                <input type="text" id="email_contato" placeholder="E-mail do contato" required />
+                <input type="text" id="telefone_contato" placeholder="Telefone do contato" required />
+                <button type="submit">Adicionar Contato</button>
+            </form>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome
+                        </th>
+                        <th>
+                            E-mail
+                        </th>
+                        <th>
+                            Telefone
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linhas construídas pelo main.js -->
+                </tbody>
+            </table>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
