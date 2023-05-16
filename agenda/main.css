@@ -1,98 +1,79 @@
-*{
+/* main.css */
+
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
   }
   
-  body{
-    background-color: #E7E7E7;
-    padding-top: 100PX;
-  }
-  
-  header{
-    display: flex;
-    align-items: center;
-    padding-bottom: 40px;
-  }
-  
-  header img{
-    height: 40px;
-    margin-right: 20px;
-  }
-  
-  header h1{
-    font-size: 40px;
-    font-weight: 700;
-  }
-  
-  .container{
+  .container {
     max-width: 800px;
-    width: 100%;
     margin: 0 auto;
+    padding: 20px;
   }
   
-  form{
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos do formulário */
+  #form_contato {
     display: flex;
-    max-width: 640px;
-    width: 100%;
-    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 20px;
   }
   
-  form input{
-    font-size: 20px;
-    background-color: #fff;
-    border: none;
-    border-bottom: 2px solid #000;
+  #form_contato input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
-  form button{
-    background-color: #009432;
-    color: #FFF;
-    font-size: 20px;
+  #form_contato button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
   }
   
-  button:hover{
-    background-color: #27ae60;
+  #form_contato button:hover {
+    background-color: #45a049;
   }
   
-  table{
+  /* Estilos da tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos específicos da tabela de contatos */
+  #form_contato input[type="text"] {
     width: 100%;
   }
   
-  table th{
-    padding: 16px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    border-bottom: 2px solid #000;
+  #form_contato button {
+    width: auto;
   }
   
-  table td{
-    padding: 16px 0;
-    text-align: center;
-    font-size: 18px;
-    border-bottom: 1px solid rgba(0,0,0, 0.1);
-  }
-  table td img{
-    height: 24px;
-  }
-  
-  .resultado{
-    padding: 8px;
-    font-weight: bold;
-    color: #FFF;
-    background-color: #000;
-    border-radius: 3px;
-  }
-  
-  .aprovado{
-    background-color: #009432;
-  }
-  
-  .reprovado{
-    background-color: red;
-  }
   

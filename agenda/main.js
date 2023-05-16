@@ -1,61 +1,31 @@
-const form = document.getElementById('form_atividade');
-const imgAprovado = '<img src="/Midias/aprovado.png" alt="Emoji festejando"/>';
-const imgReprovado = '<img src="/Midias/reprovado.png" alt="Emoji desapontado"/>';
-let atividades = [];
-let notas = []
+// main.js
 
+// Selecionar o formulário de adicionar contatos
+const formContato = document.getElementById("form_contato");
 
-const spanAprovado = '<span class="resultado aprovado">Aprovado</span>';
-const spanReprovado = '<span class="resultado reprovado">Reprovado</span>';
+// Selecionar a tabela de contatos
+const tabelaContatos = document.querySelector("table tbody");
 
-let linhas ='';
+// Adicionar um evento de envio ao formulário
+formContato.addEventListener("submit", function (event) {
+  event.preventDefault(); // Impedir o envio padrão do formulário
 
-form.addEventListener('submit', function(e){
-    e.preventDefault();
-    adicionarLinha();
-    atualizarTabela();
-    atualizarMedia();
+  // Obter os valores dos campos de entrada
+  const nome = document.getElementById("nome_contato").value;
+  const email = document.getElementById("email_contato").value;
+  const telefone = document.getElementById("telefone_contato").value;
+
+  // Criar uma nova linha na tabela com os dados do contato
+  const novaLinha = document.createElement("tr");
+  novaLinha.innerHTML = `
+    <td>${nome}</td>
+    <td>${email}</td>
+    <td>${telefone}</td>
+  `;
+
+  // Adicionar a nova linha à tabela
+  tabelaContatos.appendChild(novaLinha);
+
+  // Limpar os campos do formulário
+  formContato.reset();
 });
-
-function adicionarLinha(){
-    const inputNomeAtividade = document.getElementById('nome_atividade');
-    const inputNotaAtividade = document.getElementById('nota_atividade');
-
-    if(atividades.includes(inputNomeAtividade.value)){
-        alert(`A atividade ${inputNomeAtividade.value} já foi inserida!`);
-    }else{
-        atividades.push(inputNomeAtividade.value);
-        notas.push(parseFloat(inputNotaAtividade.value));
-        let linha = '<tr>';
-        linha += `<td>${inputNomeAtividade.value}</td>`;
-        linha += `<td>${inputNotaAtividade.value}</td>`;
-        linha += `<td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado}</td>`;
-        linha += '</tr>';
-        linhas += linha;
-    }
-
-    inputNomeAtividade.value = '';
-    inputNotaAtividade.value = '';
-}
-
-function atualizarTabela(){
-    const corpoTabela = document.querySelector('tbody');
-    corpoTabela.innerHTML = linhas;
-}
-
-function atualizarMedia(){
-    const mediaFinal = calcularMedia();
-
-    document.getElementById('media_final_valor').innerHTML = mediaFinal.toFixed(2);
-    document.getElementById('media_final_resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
-}
-
-function calcularMedia(){
-    let somaDasNotas = 0;
-
-    for(let i = 0; i < notas.length; i ++){
-        somaDasNotas += notas[i];
-    }
-
-    return somaDasNotas / notas.length;
-}
