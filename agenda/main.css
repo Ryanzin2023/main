@@ -45,12 +45,9 @@ h1 {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-<<<<<<< HEAD
     transition: background-color 1s ease;
     box-shadow: 0 0 6px black;
     outline: rgb(4, 4, 78) 1px;
-=======
->>>>>>> e320842be669b52e9b4f79ab72d5ef5699821c48
 }
 
 #form_contato button:hover {
@@ -79,8 +76,4 @@ th {
 
 #form_contato button {
     width: auto;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e320842be669b52e9b4f79ab72d5ef5699821c48
