@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Mogra', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
-  background-color: #e7e7e7;
-  padding-top: 100px;
+  background-color: #E7E7E7;
+  padding-top: 100PX;
 }
 
 header{
@@ -17,19 +17,26 @@ header{
 }
 
 header img{
-  height:40px ;
+  height: 40px;
   margin-right: 20px;
 }
 
 header h1{
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .container{
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+
+form{
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 form input{
@@ -39,20 +46,16 @@ form input{
   border-bottom: 2px solid #000;
 }
 
-form{
-  display: flex;
-  max-width: 640px;
-  width: 100%;
-  justify-content: space-between;
-
-}
-
 form button{
   background-color: #009432;
-  color: #fff;
+  color: #FFF;
   font-size: 20px;
   border: none;
   cursor: pointer;
+}
+
+button:hover{
+  background-color: #27ae60;
 }
 
 table{
@@ -64,17 +67,15 @@ table th{
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  border-bottom: 4px;
-  border-color: black;
+  border-bottom: 2px solid #000;
 }
 
 table td{
-  padding: 16px;
+  padding: 16px 0;
   text-align: center;
   font-size: 18px;
   border-bottom: 1px solid rgba(0,0,0, 0.1);
 }
-
 table td img{
   height: 24px;
 }
@@ -82,7 +83,7 @@ table td img{
 .resultado{
   padding: 8px;
   font-weight: bold;
-  color: #fff;
+  color: #FFF;
   background-color: #000;
   border-radius: 3px;
 }
