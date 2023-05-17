@@ -1,4 +1,4 @@
-main.css 
+* main.css 
 
 
 body {
@@ -54,7 +54,7 @@ h1 {
     background-color: #45a049;
 }
 
-
+  /* Estilos da tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -70,6 +70,7 @@ th {
     background-color: #f2f2f2;
 }
 
+  /* Estilos específicos da tabela de contatos */
 #form_contato input[type="text"] {
     width: 100%;
 }
