@@ -97,7 +97,7 @@ tbody td:first-child {
 
   /* Estilizando os links */
 a {
-    color: #337ab7;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ td span {
 
   /* Estilizando a coluna de elemento */
 .text-lightning {
-    color: #902be2;
+    color: #b54bd3;
     font-weight: bold;
 }
 
@@ -128,7 +128,7 @@ td span {
 }
 
 .text-fire {
-    color: #eb0a02;
+    color: #e62a29;
     font-weight: bold;
 }
 
@@ -138,7 +138,7 @@ td span {
 }
 
 .text-physical {
-    color: #cac5c5;
+    color: #71718c;
     font-weight: bold;
 }
 
@@ -148,7 +148,7 @@ td span {
 }
 
 .text-ice {
-    color: #10a6c0;
+    color: #2192d6;
     font-weight: bold;
 }
 
@@ -158,7 +158,7 @@ td span {
 }
 
 .text-wind {
-    color: #04d37d;
+    color: #42c38c;
     font-weight: bold;
 }
 
@@ -168,7 +168,7 @@ td span {
 }
 
 .text-quantum {
-    color: #2f0dee;
+    color: #4f48bd;
     font-weight: bold;
 }
 
@@ -178,7 +178,7 @@ td span {
 }
 
 .text-imaginary {
-    color: #dfb80a;
+    color: #e5b909;
     font-weight: bold;
 }
 
@@ -186,3 +186,10 @@ td span {
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.section details {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    font-size: 16px;
+  }
