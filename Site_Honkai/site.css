@@ -177,3 +177,12 @@ td span {
     margin-right: 5px;
 }
 
+.text-imaginary {
+    color: #dfb80a;
+    font-weight: bold;
+}
+
+.text-imaginary img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
