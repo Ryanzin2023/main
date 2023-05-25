@@ -1,53 +1,87 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(63, 57, 57);
-  }
-  
-  table {
+}
+
+table {
     border-collapse: collapse;
     width: 300px;
     margin-top: 20px;
-  }
-  
+}
 
-  th ,td{
+th, td {
     background-color: #ffffff;
     border: 1px solid black;
-  }
-  
-  .character-container {
+}
+
+.character-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 20px;
-  }
+}
 
-  .character-image {
-    width: 800px;
+.character-image {
+    max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-  }
+}
 
-  .character-table {
+.character-table {
     border-collapse: collapse;
     width: 100%;
-  }
+}
 
-  .character-table th,
-  .character-table td {
+.character-table th,
+.character-table td {
     padding: 8px;
     border: 1px solid black;
-  }
-  .character-box {
+}
+
+.character-box {
     background-color: #e2b892;
     padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+
