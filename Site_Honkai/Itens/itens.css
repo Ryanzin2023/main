@@ -1,0 +1,76 @@
+/* caminhos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3e1896;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* Estilos para o menu */
+.character-menu {
+    text-align: center;
+    background-color: #000000;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(117, 89, 89, 0.1);
+}
+
+.character-menu img {
+    display: block;
+    margin:0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.character-menu h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.character-menu p {
+    font-size: 18px;
+    color: #914848;
+    margin-bottom: 20px;
+}
+
+
+
