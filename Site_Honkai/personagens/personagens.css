@@ -84,4 +84,49 @@ tbody tr:nth-child(even) {
     text-align: center;
 }
 
+.cost-cell {
+    white-space: nowrap;
+  }
+  
+  .cost-cell img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  td img {
+    display: inline-block;
+  }
 
+  .quote-container {
+    text-align: left;
+    overflow: auto;
+    max-height: 300px;
+    line-height: 1.35em;
+    padding: 15px;
+    overflow: hidden;
+    border: solid #c09c7b;
+    border-width: 4px 6px 4px 9px;
+    background: #ffd1a61a;
+    border-radius: 0px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+
+i {
+    font-style: italic;
+    color: black;
+}
+
+
+td.dark-background {
+    background-color: #333;
+    color: #fff;
+  }
+  .material-cell {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  font{
+    color: #333;
+  }
