@@ -130,3 +130,11 @@ td.dark-background {
   font{
     color: #000000;
   }
+  .level-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
