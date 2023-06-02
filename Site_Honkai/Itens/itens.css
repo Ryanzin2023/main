@@ -1,76 +1,60 @@
-/* caminhos.css */
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    text-align: center;
+    background-color: rgb(63, 57, 57);
     margin: 0;
     padding: 0;
-}
+  }
 
-header {
-    background-color: #333;
-    color: #fff;
+  h1 {
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .item {
+    margin-top: 50px;
+    background-color: #e2b892;
+    border-radius: 8px;
     padding: 20px;
-}
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
 
-h1 {
-    margin: 0;
-}
+  img {
+    width: 200px;
+    height: auto;
+  }
 
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    color: #3e1896;
-}
-
-form {
+  p {
     margin-top: 10px;
+    color: black;
+  }
+
+  h2 {
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+#path-image{
+    max-width: 100px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-}
+.description {
 
+    margin-right: 10px;
 
+  }
 
+  .description {
+    margin-top: 20px;
+    padding: 15px;
+    border: solid #c09c7b;
+    border-width: 4px 6px 4px 9px;
+    background: #c09c7b1a;
 
-/* Estilos para o menu */
-.character-menu {
-    text-align: center;
-    background-color: #000000;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 100px;
-    box-shadow: 0 2px 4px rgba(117, 89, 89, 0.1);
-}
+  }
 
-.character-menu img {
-    display: block;
-    margin:0 auto;
-    max-width: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.character-menu h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.character-menu p {
-    font-size: 18px;
-    color: #914848;
-    margin-bottom: 20px;
-}
-
-
+  .description a {
+    color: black;
+  }
 
