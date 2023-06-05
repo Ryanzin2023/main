@@ -115,9 +115,6 @@ p {
   line-height: 1.5;
 }
 
-a {
-  color:#fcae66;
-}
 
 .description {
   max-width: 150px;
@@ -130,3 +127,14 @@ a {
   margin-left: 840px;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+.history{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
