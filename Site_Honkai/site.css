@@ -3,6 +3,9 @@ body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+    background-image: url("/Site_Honkai/Art_splash/1349658-Honkai-Star-Rail-HD-Wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -255,12 +258,7 @@ nav li a{
     vertical-align: middle;
 }
 
-body
-{
-    background-image: url("/Site_Honkai/Art_splash/webp");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
+
 :root .theme-fandomdesktop-dark, :root .theme-fandommobile-dark{
 
 --color-fire: #e62a29;
@@ -306,3 +304,4 @@ body
 .article-table tbody tr:hover {
     background-color: #eaeaea;
 }
+
