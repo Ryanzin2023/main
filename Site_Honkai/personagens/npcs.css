@@ -118,3 +118,15 @@ p {
 a {
   color:#fcae66;
 }
+
+.description {
+  max-width: 60px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: solid #c09c7b;
+  border-width: 4px 6px 4px 9px;
+  background: #c09c7b1a;
+  border-radius: 0px 5px 0px 0px;
+  margin-left: 840px;
+}
+
