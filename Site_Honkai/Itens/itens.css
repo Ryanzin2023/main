@@ -51,7 +51,8 @@ body {
     border: solid #c09c7b;
     border-width: 4px 6px 4px 9px;
     background: #c09c7b1a;
-
+    max-width: fit-content;
+    margin-left: 800px;
   }
 
   .description a {

@@ -49,7 +49,7 @@ textarea {
     display: block;
     padding: 5px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 30%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -305,3 +305,14 @@ nav li a{
     background-color: #eaeaea;
 }
 
+#npc{
+    margin-left: 200px;
+}
+
+#contato{
+    margin-left: 720px;
+}
+
+#social{
+    margin-left: 720px;
+}

@@ -138,5 +138,8 @@ td.dark-background {
     text-align: center;
   }
 
-  
+#voltar{
+    margin-left: 800px;
+    max-width: fit-content;
+}
 
