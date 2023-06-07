@@ -1,23 +1,43 @@
-function login() {
-    var usernameInput = document.getElementById("login-username");
-    var passwordInput = document.getElementById("login-password");
-    var loginMsg = document.getElementById("login-msg");
-  
-    var username = usernameInput.value;
-    var password = passwordInput.value;
-  
+function register() {
+  var emailInput = document.getElementById("register-email");
+  var passwordInput = document.getElementById("register-password");
+  var registerMsg = document.getElementById("register-msg");
 
-    if (username.trim() !== "" && password.trim() !== "") {
+  var email = emailInput.value.trim();
+  var password = passwordInput.value.trim();
 
-      window.location.href = "site.html";
-      return false; 
-    } else {
-
-      loginMsg.innerHTML = "Credenciais inválidas. Por favor, tente novamente.";
-      loginMsg.style.display = "block";
-      usernameInput.value = "";
-      passwordInput.value = "";
-      return false; 
-    }
+  if (email !== "" && password !== "") {
+    window.location.href = "site.html";
+    return false;
+  } else {
+    registerMsg.innerHTML = "Por favor, preencha todos os campos.";
+    registerMsg.style.display = "block";
+    emailInput.value = "";
+    passwordInput.value = "";
+    return false;
   }
-  
+}
+function login() {
+  var usernameInput = document.getElementById("login-username");
+  var passwordInput = document.getElementById("login-password");
+  var loginMsg = document.getElementById("login-msg");
+
+  var username = usernameInput.value.trim();
+  var password = passwordInput.value.trim();
+
+  if (username !== "" && password !== "") {
+    window.location.href = "site.html";
+    return false;
+  } else {
+    loginMsg.innerHTML = "Credenciais inválidas. Por favor, tente novamente.";
+    loginMsg.style.display = "block";
+    usernameInput.value = "";
+    passwordInput.value = "";
+    return false;
+  }
+}
+document.addEventListener('click', function() {
+  var audio = document.getElementById('audioPlayer');
+  audio.volume = 60; // Define o volume como 0 para que não seja audível
+  audio.play();
+});
