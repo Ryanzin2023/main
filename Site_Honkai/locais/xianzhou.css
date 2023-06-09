@@ -49,7 +49,7 @@ table {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    background-image: url("/Site_Honkai/Art_splash/honkai-star-rail-special-program-world-xianshou-luofu.jpg");
+    background-image: url("../Art_splash/honkai-star-rail-special-program-world-xianshou-luofu.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
