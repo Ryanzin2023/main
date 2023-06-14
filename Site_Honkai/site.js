@@ -69,3 +69,4 @@ function nextSlide() {
   }
   showSlide(newIndex);
 }
+
