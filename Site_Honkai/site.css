@@ -49,9 +49,9 @@ textarea {
     display: block;
     padding: 5px;
     margin-bottom: 10px;
-    width: 30%;
+    width: 20%;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 button {
@@ -259,26 +259,6 @@ nav li a{
 }
 
 
-:root .theme-fandomdesktop-dark, :root .theme-fandommobile-dark{
-
---color-fire: #e62a29;
---color-ice: #2192d6;
---color-imaginary: #e5b909;
---color-lightning: #b54bd3;
---color-physical: #71718c;
---color-quantum: #4f48bd;
---color-wind: #42c38c;
---text-highlight: #f29e38;
---text-new: #41be3a;
---text-old: #e35045;
---text-keyword: #dbc291;
---theme-color-1: #c09c7b;
---theme-color-2: #e2b892;
---theme-color-3: #2b272b;
---pi-dark-bg: var(--theme-color-3);
---pi-border: var(--theme-color-1);
---pi-background-color: #2b272b;
-}
 
 .article-table {
     width: 100%;
@@ -305,20 +285,6 @@ nav li a{
     background-color: #eaeaea;
 }
 
-#npc{
-    margin-left: 200px;
-}
-
-#contato{
-    margin-left: 720px;
-}
-
-#social{
-    margin-left: 720px;
-}
 .colorful-text {
     color: gold;
-  }
-  #creditos{
-    margin-left: 720px;
 }
