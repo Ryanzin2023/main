@@ -37,36 +37,3 @@ $(document).ready(function(){
         $('nav').slideToggle();
     })
 })
-var carousel = document.getElementById('musicCarousel');
-var slides = carousel.getElementsByClassName('carousel-item');
-var currentIndex = 0;
-
-function showSlide(index) {
-  if (index < 0 || index >= slides.length) {
-    return;
-  }
-
-  for (var i = 0; i < slides.length; i++) {
-    slides[i].classList.remove('active');
-  }
-
-  slides[index].classList.add('active');
-  currentIndex = index;
-}
-
-function previousSlide() {
-  var newIndex = currentIndex - 1;
-  if (newIndex < 0) {
-    newIndex = slides.length - 1;
-  }
-  showSlide(newIndex);
-}
-
-function nextSlide() {
-  var newIndex = currentIndex + 1;
-  if (newIndex >= slides.length) {
-    newIndex = 0;
-  }
-  showSlide(newIndex);
-}
-
